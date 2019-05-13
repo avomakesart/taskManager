@@ -1,0 +1,73 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2rem;
+}
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+
+.complete {
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+.decoration {
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.swal-button {
+    padding: 0 2.4rem;
+    color: white!important;
+}
+
+.swal-overlay {
+    background-color: rgba(93, 105, 135, 0.45);
+  }
+
+.bgwhite {
+    background-color: white;
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+
+.bgblack {
+    background-color: #191919;
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+input[type="submit"] {
+    font-size: 1.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+p.center {
+    margin-top: 10rem;
+}
+
+li {
+    border: 1px solid #191919;
+    padding: 0.5rem;
+    list-style: none;
+    
+}
+
+input[type="text"] {
+    background-color: transparent!important;
+}
